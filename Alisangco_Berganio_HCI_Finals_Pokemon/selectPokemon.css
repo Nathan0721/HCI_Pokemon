@@ -1,0 +1,62 @@
+header {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("PokemonBackground.jpg");
+	padding-bottom: 15vh;
+}
+
+.main-title {
+	color: #FFCB05;
+	font-size: 5rem;
+	padding-top: 7.5vh;
+	text-align: center;
+	padding-bottom: 7.5vh;
+	font-family: "Madimi One";
+	text-shadow: 5px 5px 10px #3D7DCA, -5px -5px 10px #3D7DCA, 5px -5px 10px #3D7DCA, -5px 5px 10px #3D7DCA;
+	margin: 0;
+}
+
+.pokemon-gallery {
+	width: 90%;
+	color: black;
+	margin: auto;
+	font-weight: bold;
+	text-align: center;
+	font-family: "Roboto Slab";
+}
+
+.card-img-top {
+	border-radius: 0;
+}
+
+.choose-pokemon {
+	padding-top: 2.5vh;
+	padding-bottom: 12.5vh;
+	border-top: 10px ridge black;
+	background: url("ChooseBackground.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.form-div {
+	width: 50%;
+	margin: auto;
+	display: flex;
+	color: #F5F5F5;
+	padding-top: 5vh;
+	font-size: 2rem;
+	text-align: center;
+	align-items: center;
+	border-radius: 25px;
+	padding-bottom: 5vh;
+	justify-content: center;
+	border: 10px ridge silver;
+	font-family: "Madimi One";
+	background: rgba(0, 0, 0, 1);
+}
+
+.form-div input[type="text"] {
+	margin-left: 10px;
+}

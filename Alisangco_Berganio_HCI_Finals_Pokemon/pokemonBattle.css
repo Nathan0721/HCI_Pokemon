@@ -1,0 +1,39 @@
+body {
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-image: url("PokemonStadium.jpg");
+    padding-bottom: 10vh;
+}
+
+.trainer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-family: "Madimi One";
+    font-size: 2rem;
+}
+
+.player-side {
+    background: #FFCCCB;
+    border-radius: 25px;
+}
+
+.enemy-side {
+    background: #add8e6;
+    border-radius: 25px;
+}
+
+#pokemonMoves {
+    background: white;
+    width: 100%;
+    padding-top: 10px;
+}
+
+#pokemonMoves p:hover {
+    background: silver;
+    padding: 10px;
+    border-radius: 10px;
+}
